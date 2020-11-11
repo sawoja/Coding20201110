@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(173, 86, 23);
+    background-color: rgb(168, 214, 226);
+    text-align: center;
+}
+
+.FirstText {
+    color: rgb(155, 35, 101);
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Xanh Mono', monospace;
+    background-color: lightskyblue;
+}
+
+p {
+    background-color: rgb(209, 223, 15);
+    text-align: center;
+}
+
+.SecondText {
+    font-style: oblique 66deg;
+    border: 3px dashed rgb(55, 168, 168);
+    padding: 40px;
+    background-color: lightpink;
+}
+
+a {
+    background-color: khaki;
+}
+
+.Gallery {
+    background-color: rgb(170, 160, 214);
+    padding: 15px;
+    /* width: 50%; */
+}
+
+div.Gallery img {
+    border: 2px dotted crimson;
+    margin-left: 25px;
+    padding: 5px;
+    background-color: honeydew;
+    box-shadow: lavenderblush 5px 5px 20px;
+    display: inline-flex;
+}
