@@ -46,3 +46,68 @@ div.Gallery img {
     box-shadow: lavenderblush 5px 5px 20px;
     display: inline-flex;
 }
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.box {
+    width: 30%;
+    height: 200px;
+    /* galioja tik su textu ir inline objektais */
+    text-align: center;
+    /* background-color: rgb(127, 218, 214); */
+}
+
+.box img {
+    border-radius: 50%;
+    width: 60%;
+}
+
+.box p {
+    background-color: transparent;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+header h2 {
+    position: absolute;
+    margin: none;
+    top: 50%;
+    left: 50%;
+    /*atimama po puse elemento plocio, kad gautusi per viduri*/
+    transform: translate(-50%, -50%);
+}
+
+.header-Vol-2 {
+    background-color: goldenrod;
+    background-image: url('http://picsum.photos/1920/400/');
+    background-size: cover;
+    background-position: center center;
+    margin-top: 280px;
+}
+
+.header-Vol-2 h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
