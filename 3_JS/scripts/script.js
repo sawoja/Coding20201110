@@ -65,3 +65,22 @@ button2.addEventListener("click", function () {
 document.addEventListener("keyup", function (event) {
     console.log(event.keyCode);
 });
+
+var button3 = document.querySelector("#change-img")
+
+button3.addEventListener("click", function () {
+    var image = document.querySelector("div.gallery img");
+    /*different random pavaiksleliai gaunami, tokio pat dydzio*/
+    image.setAttribute("src", "https://picsum.photos/seed/" + Math.random() + "/300");
+
+});
+
+var images = document.querySelectorAll("div.gallery img");
+
+for (var j = 0; j < images.length; j++) {
+    images[j].addEventListener("click", function (event) {
+        // console.log(event);
+        event.target.setAttribute("src", "https://picsum.photos/seed/" + Math.random() + "/300");
+    });
+
+}
